@@ -2,3 +2,4 @@ tset
 Makefile
 *.o
 hh*
+mainprog
