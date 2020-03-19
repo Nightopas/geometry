@@ -1,8 +1,8 @@
 all : prog
 
 prog : main.o circle.o
-	gcc geomcode.o -o mainprog
+	gcc -Wall geomcode.o -o mainprog
 main.o : geomcode.c
-	gcc -c geomcode.c
+	gcc -Wall -c geomcode.c
 circle.o : circle.c
-	gcc -c circle.c
+	gcc -Wall -c circle.c
